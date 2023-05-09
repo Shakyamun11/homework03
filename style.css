@@ -63,4 +63,47 @@
     border-radius: 100%;
     text-decoration: none;
 }
-
+.questions{
+    bottom: 5px;
+    transform: translate( );
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+.form{
+    
+    position: absolute;
+    left: 30%;
+    width: 400px;
+    height: auto;
+    border: 2px solid rgba(220, 20, 60, 0.179);
+}
+.info{
+    width: 30px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid darkblue;
+    background-color: rgba(153, 153, 172, 0.388);
+    transform: translateY(-30px);
+    cursor: pointer;
+}
+.info-I{
+    transform: translateX(11px);
+    /* text-decoration: none;  */
+    /* //////////////////////////////////////////////gio help!!!!!!! */
+}
+.comm{
+    width: 270px;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.366);
+    border-radius: 30px;
+    transform: translateY(-42px);
+    transform: translateX(-18pxs 20px);
+}
+.comm ul{
+    list-style: none;
+    font-size: small;
+    transform: translateX(60px);
+    transform: translateY(10px 20px);
+}
